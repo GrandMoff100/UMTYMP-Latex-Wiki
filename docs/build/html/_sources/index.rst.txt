@@ -1,21 +1,74 @@
-.. UMTYMP LaTeX Wiki documentation master file, created by
-   sphinx-quickstart on Tue Dec 13 02:21:41 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to the UMTYMP LaTeX Wiki!
+************************************
+The ultimate guide on how to write your assignments in LaTeX.
+Wait what? What's LaTex?
 
-Welcome to UMTYMP LaTeX Wiki's documentation!
-=============================================
+The History
+============
+Well... LaTeX was first created in 1985 by Leslie Lamport.
+Its a free open-source software package created as an addition
+to the TeX typesetting system. For reference, TeX essentially took text
+like {\\it this text is italic} and formatted it like *this text is italic*.
+Because of its extensive and powerful capabilities the TeX system became very widely adopted.
+In 1985, LaTeX was created to generate general-purpose books, articles, etc in a better way.
+Fast forward to today, LaTeX is the *de facto* standard for writing academic papers, research papers,
+format mathematical equations, and express formal notation in a reproducable way.
+
+TL;DR Everyone uses LaTeX because its awesome and you should to!
+
+But what *actually* is it?
+=============================
+LaTeX looks like this, and generates things like that.
+
+
+Pretty cool right???
+
+Pros and Cons
+==============
+But slow down there. 
+Before you dive head first into this awesome guide you should 
+know the advantages and minor disadvantages of using LaTeX.
+
+.. list-table:: Some Considerations
+   :widths: 20 20
+   :header-rows: 1
+
+   * - Pros
+     - Cons
+   * - 
+     -
+   * - 
+     -
+   * - 
+     -
+   * - 
+     -
+   * - 
+     -
+   * - 
+     -
+   * - 
+     -
+   * - 
+     -
+   * - 
+     -
+   * - 
+     -
+
+
+
+What you can become!
+=======================
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Table of Contents
 
-    Introduction
+    Introduction to LaTeX <intro>
+    Editor Setup <setup>
+    Useful Tips <tips>
+    UMTYMP Specific Advice <umtymp>
+    More LaTeX <advanced>
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
