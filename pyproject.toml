@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "umtymp-latex-wiki"
+version = "0.1.0"
+description = "A reference guide to writing your UMTYMP homework assignments in LaTeX."
+authors = ["Your Name <you@example.com>"]
+license = "GPL-v3-or-later"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Sphinx = "^5.3.0"
+sphinx-rtd-theme = "^1.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

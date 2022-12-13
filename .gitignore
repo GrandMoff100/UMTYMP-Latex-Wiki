@@ -1,0 +1,7 @@
+venv/
+.venv/
+
+replit.nix
+.cache
+.replit
+.config
