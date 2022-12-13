@@ -1,6 +1,8 @@
 venv/
 .venv/
 
+docs/build/
+
 replit.nix
 .cache
 .replit
