@@ -3,7 +3,8 @@ Welcome to the UMTYMP LaTeX Wiki!
 The ultimate guide on how to write your assignments in LaTeX.
 Wait what? What's LaTex?
 
-The History
+
+The (Brief) History (of LaTeX)
 ============
 Well... LaTeX was first created in 1985 by Leslie Lamport.
 Its a free open-source software package created as an addition
@@ -30,7 +31,7 @@ Before you dive head first into this awesome guide you should
 know the advantages and minor disadvantages of using LaTeX.
 
 .. list-table:: Some Considerations
-   :widths: 20 20
+   :widths: 200 200
    :header-rows: 1
 
    * - Pros
@@ -62,9 +63,12 @@ What you can become!
 =======================
 
 
+
+The Guide
+==========
+
 .. toctree::
    :maxdepth: 2
-   :caption: Table of Contents
 
     Introduction to LaTeX <intro>
     Editor Setup <setup>

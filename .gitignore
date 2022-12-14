@@ -1,6 +1,9 @@
 venv/
 .venv/
 
+_build/
+
+# Replit.com
 replit.nix
 .cache
 .replit
