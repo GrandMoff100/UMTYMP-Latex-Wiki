@@ -65,7 +65,7 @@ The Guide
 ==========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
     Introduction to LaTeX <intro>
     Editor Setup <setup>
