@@ -42,7 +42,7 @@ know the advantages and minor disadvantages of using LaTeX.
    * - Consistent text formatting
      - Messy handwriting! (Do you ever squish text to fit on the end of a line?)
    * - Saves paper
-     - 
+     - LaTeX can be confusing at times.
    * - Make pretty graphs/figures.
      - 
    * - Scanning is a thing of the past.
@@ -71,5 +71,6 @@ The Guide
     Editor Setup <setup>
     Useful Tips <tips>
     UMTYMP Specific Advice <umtymp>
+    What Professors Think <interviews>
     More LaTeX <advanced>
 
