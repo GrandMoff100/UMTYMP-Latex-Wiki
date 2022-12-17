@@ -24,7 +24,7 @@ Pros and Cons
 ------------------
 But slow down there. 
 Before you dive head first into this awesome guide you should 
-know the advantages and minor disadvantages of using LaTeX.
+know the advantages and minor disadvantages of using LaTeX. Then can decide whether or not LaTeX is right for you!
 
 .. list-table::
    :widths: 200 200 200 200
