@@ -27,29 +27,49 @@ Before you dive head first into this awesome guide you should
 know the advantages and minor disadvantages of using LaTeX.
 
 .. list-table::
-   :widths: 200 200
+   :widths: 200 200 200 200
    :header-rows: 1
 
-   * - Using LaTeX
-     - Handwriting
+   * - LaTeX Pros
+     - LaTeX Cons
+     - Handwriting Pros
+     - Handwriting Cons
    * - Copy and Paste!
      - Repetitive calculations = Sore Wrist
+     - 
+     - 
    * - Consistent text formatting
      - Messy handwriting! (Do you ever squish text to fit on the end of a line?)
+     -
+     -
    * - Saves paper
      - LaTeX can be confusing at times.
+     -
+     -
    * - Make pretty graphs/figures.
      - 
+     -
+     -
    * - Scanning is a thing of the past.
+     - 
+     - 
      - 
    * - No erase marks!
      - 
+     - 
+     -
    * - Super-duper readable.
      - 
+     - 
+     -  
    * - Import pictures!
      - 
+     - 
+     -
    * - 
      - 
+     -
+     -
 
 What you can become!
 -----------------------
