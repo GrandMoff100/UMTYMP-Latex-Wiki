@@ -5,7 +5,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'UMTYMP LaTeX Wiki'
-copyright = '2022, Nathan Larsen, Anirudh Raj'
+copyright = '2022, Nathan Larsen'
 author = 'Nathan Larsen, Anirudh Raj'
 release = '0.0.1'
 
