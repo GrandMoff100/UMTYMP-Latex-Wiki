@@ -74,4 +74,9 @@ know the advantages and minor disadvantages of using LaTeX. Then can decide whet
 What you can become!
 -----------------------
 
+I know that when I started learning LaTeX it all seemed kind of overwhelming and confusing. Trust me, its normal. But I promise you that with time and effort you can become proficient with LaTeX. This guide is hear to make your journey as smooth as possible coming from students who learned it by themselves :).
+
+  ..
+     Hit us up with your comments and questions at our disco server __here__.
+
 
