@@ -8,3 +8,5 @@ replit.nix
 .cache
 .replit
 .config
+
+build/
