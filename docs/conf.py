@@ -1,3 +1,4 @@
+"""The configuration file for the sphinx project."""
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
@@ -25,3 +26,4 @@ exclude_patterns = []
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_css_files = ["css/custom.css"]
+html_favicon = "https://university-relations.umn.edu/sites/university-relations.umn.edu/files/2022-05/favicon.ico"
