@@ -2,7 +2,7 @@
 name = "umtymp-latex-wiki"
 version = "0.1.0"
 description = "A reference guide to writing your UMTYMP homework assignments in LaTeX."
-authors = ["Your Name <you@example.com>"]
+authors = ["Nathan Larsen <lars7493@umn.edu>"]
 license = "GPL-v3-or-later"
 
 [tool.poetry.dependencies]
