@@ -1,5 +1,5 @@
 Welcome to the (Unofficial) UMTYMP LaTeX Wiki!
-**************************************************
+**********************************************
 The ultimate guide on how to write your UMTYMP written assignments in LaTeX.
 Wait what? What's LaTex?
 
