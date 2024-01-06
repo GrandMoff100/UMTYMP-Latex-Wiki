@@ -11,7 +11,7 @@ build:
       - asdf install poetry latest
       - asdf global poetry latest
       - pip install poetry-plugin-export
-      - poetry export -f requirements.txt --output requirements.txt --with docs
+      - poetry export -f requirements.txt --output requirements.txt
     post_install:
       - pip install -r requirements.txt
 
