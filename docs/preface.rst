@@ -16,116 +16,119 @@ TL;DR Everyone uses LaTeX because its awesome and you should to!
 
 But what *actually* is it?
 -----------------------------
-From a practical standpoint, LaTeX looks like this, and generates things like that.
+From a practical standpoint, LaTeX source code looks like this, and you get a pdf like that.
+
 
 .. code-block:: latex
 
-    \documentclass[12pt]{article}
-    \usepackage{lingmacros}
-    \usepackage{tree-dvips}
-    \begin{document}
+    \documentclass[12pt]{article}  % required for all latex documents
+
+    % pssst, "documentclass" is a command, and "article" is a required argument to that command
+    % and the "12pt" is an optional argument to that command
+    % also "%" is the comment character, anything after it on the line is ignored by latex
+
+    % this space before "\begin{document}" is whats known as the preamble, it sets up the document
+
+    \usepackage{amsmath} % needed for \begin{align}...\end{align}, \begin{equation}...\end{equation}, etc.
+
+
+    \begin{document}  % required, everything that we want to *see* must be between \begin{document} and \end{document}
+
+    Hello World
+
+    My favorite math expression is $e^{i\pi} + 1 = 0$.  % the $...$ tells latex to display the math expression inline
+
+    You can do subscripts like this $f_{n+1} = f_{n} + f_{n-1}$.
+    You can do superscripts like this $a^2 + b^{2} = c^{2}$.
+
+
+    You can display important equations like this: $$x = \frac{1234567890}{0987654321}$$ and text resumes on the next line.
+    % the $$...$$ tells latex to display the math expression on its own line (and centered!)
+
     
-    \section*{Notes for My Paper}
-    
-    Don't forget to include examples of topicalization.
-    They look like this:
-    
-    {\small
-    \enumsentence{Topicalization from sentential subject:\\ 
-    \shortex{7}{a John$_i$ [a & kltukl & [el & 
-      {\bf l-}oltoir & er & ngii$_i$ & a Mary]]}
-    { & {\bf R-}clear & {\sc comp} & 
-      {\bf IR}.{\sc 3s}-love   & P & him & }
-    {John, (it's) clear that Mary loves (him).}}
-    }
-    
-    \subsection*{How to handle topicalization}
-    
-    I'll just assume a tree structure like (\ex{1}).
-    
-    {\small
-    \enumsentence{Structure of A$'$ Projections:\\ [2ex]
-    \begin{tabular}[t]{cccc}
-        & \node{i}{CP}\\ [2ex]
-        \node{ii}{Spec} &   &\node{iii}{C$'$}\\ [2ex]
-            &\node{iv}{C} & & \node{v}{SAgrP}
-    \end{tabular}
-    \nodeconnect{i}{ii}
-    \nodeconnect{i}{iii}
-    \nodeconnect{iii}{iv}
-    \nodeconnect{iii}{v}
-    }
-    }
-    
-    \subsection*{Mood}
-    
-    Mood changes when there is a topic, as well as when
-    there is WH-movement.  \emph{Irrealis} is the mood when
-    there is a non-subject topic or WH-phrase in Comp.
-    \emph{Realis} is the mood when there is a subject topic
-    or WH-phrase.
-    
+    Putting empty lines between lines tells latex that these are separate paragraphs, hence the indents.
+
+    You can put ``quotes" around text.
+
+    You can \textbf{bold}, and \textit{italics}, or \textbf{\textit{both!}}.
+
+    You can do multiline equations like this too!
+    \begin{align*}  % the "*" tells latex not to label each equation-line with a number, try removing it!
+        ax^2 + bx + c &= 0\\
+        % the "&" is called an alignment character because thats where latex aligns the lines too
+        % the "\\" tells latex to display on the next line
+        x^2 + \frac{b}{a}x + \frac{c}{a} &= 0\\ % \frac{top}{bottom} is for fractions
+        x^2 + 2\frac{b}{(2a)}x + \frac{b^2}{(2a)^2}&= \frac{b^2}{(2a)^2}-\frac{c}{a}\\
+        \left(x + \frac{b}{2a}\right)^2 &= \frac{b^2 - 4ac}{4a^2}\\
+        % \left( something \right) scales the parantheses depending on how big the insides are
+        \left(x + \frac{b}{2a}\right)^2 &= \frac{b^2 - 4ac}{4a^2}\\
+        x + \frac{b}{2a} &= \pm \sqrt{\frac{b^2 - 4ac}{4a^2}}\\
+        % \pm is the plus-minus character
+        % \sqrt is for roots, fun fact you can do nth-roots with \sqrt[n]{stuff}
+        x  &= -\frac{b}{2a} \pm \frac{1}{2a}\sqrt{b^2 - 4ac}\\
+          &= \frac{-b\pm \sqrt{b^2 - 4ac}}{2a}.
+    \end{align*}
+    Whoa! Whats that! Is that... the quadratic formula?!?!
+
+
     \end{document}
 
+
+.. image:: _static/assets/preface-screenshot.png
+   :alt: LaTeX source code and the resulting pdf
+   :align: center
+
+You can check this out and play around with it on `Overleaf here <https://www.overleaf.com/read/pbjsmvgnmhnp#30a32a>`_.
 Pretty cool right???
 
 Pros and Cons
 ------------------
 But slow down there. 
 Before you dive head first into this awesome guide you should 
-know the advantages and minor disadvantages of using LaTeX. Then can decide whether or not LaTeX is right for you!
+know the advantages and disadvantages of using LaTeX. Then can decide whether or not LaTeX is right for you!
 
 .. list-table::
-   :widths: 50 50 50 50
+   :widths: 50 50
    :header-rows: 1
 
    * - LaTeX Pros
      - LaTeX Cons
-     - Handwriting Pros
-     - Handwriting Cons
-   * - Copy and Paste!
-     - Repetitive calculations = Sore Wrist
-     - 
+   * - Copy and Paste similar lines of algebra without retyping.
      - 
    * - Consistent text formatting
      - Messy handwriting! (Do you ever squish text to fit on the end of a line?)
-     -
-     -
    * - Saves paper
      - LaTeX can be confusing at times.
-     -
-     -
    * - Make pretty graphs/figures.
      - 
-     -
-     -
    * - Scanning is a thing of the past.
-     - 
-     - 
      - 
    * - No erase marks!
      - 
-     - 
-     -
    * - Super-duper readable.
-     - 
-     - 
      -  
-   * - Import pictures!
+   * - Import pictures of handrawn work from your phone when needed.
      - 
+   * - No need to worry about losing your work.
+     -
+   * - Draw pretty figures native in latex!
      - 
-     -
-   * - 
-     - 
-     -
-     -
 
-What you can become!
------------------------
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
 
-I know that when I started learning LaTeX it all seemed kind of overwhelming and confusing. Trust me, its normal. But I promise you that with time and effort you can become proficient with LaTeX. This guide is hear to make your journey as smooth as possible coming from students who learned it by themselves :).
+   * - Handwriting Pros
+     - Handwriting Cons
+   * - No need for a computer!
+     - Repetitive calculations = Sore Wrist
 
-  ..
-     Hit us up with your comments and questions at our disco server __here__.
+
+.. What you can become!
+.. -----------------------
+
+.. I know that when I started learning LaTeX it all seemed kind of overwhelming and confusing.
+.. Trust me, its normal. But I promise you that with time and effort you can become proficient with LaTeX.
+.. This guide is hear to make your journey as smooth as possible coming from students who learned it by themselves :).
 
 
