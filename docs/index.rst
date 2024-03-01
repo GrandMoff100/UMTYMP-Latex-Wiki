@@ -12,8 +12,6 @@ The Guide
     A Small Preface <preface>
     Getting started with LaTeX <intro>
     Doing your UMTYMP Homework <umtymp>
-    Custom Editor Setup <setup>
     Useful Tips <tips>
-    Interviews with the Professors <interviews>
     A Deep Dive Into LaTeX <advanced>
 
